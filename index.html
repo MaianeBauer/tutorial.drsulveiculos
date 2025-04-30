@@ -184,7 +184,6 @@ ul li ul li {
     margin: 0;
     font-size: 1.2em;
 }
-
 .bloco-video-container {
     position: relative; /* Para posicionar o modal corretamente */
 }
@@ -233,6 +232,8 @@ ul li ul li {
     border: 1px solid #888;
     width: 80%; /* Largura do modal */
     border-radius: 5px;
+    /* Adicione ou ajuste a altura mínima se necessário para o vídeo */
+    /* min-height: 400px; */
 }
 
 .fechar-modal {
@@ -254,10 +255,9 @@ ul li ul li {
 
 #video-frame {
     width: 100%;
-    height: auto;
+    /* height: auto; REMOVA ESTA LINHA */
     aspect-ratio: 16 / 9; /* Mantém a proporção do vídeo */
 }
-
 </style>
 
 
